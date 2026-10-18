@@ -20,6 +20,4 @@ yab remix
 poop
 </a><br>
 
-
- <a href='https://www.acadoo.de/leistungen/ghostwriter-doktorarbeit/'>Doktorarbeit Coaching</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=635a054ce54411b5e585013f096ea01ed0fb59af'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1671174/t/2"></script>
+<h1><font color="red">goat3 music</font></h1>
