@@ -21,3 +21,25 @@ poop
 </a><br>
 
 <h1><font color="red">goat3 music</font></h1>
+
+<script>
+const element = document.getElementById("funnytexts");
+const text = element.innerText;
+function hahaafadfsd() {
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+        let char = text[i];
+        if (char === " ") {
+            result += " ";
+            continue;
+        }
+        if (Math.random() > 0.5) {
+            result += char.toUpperCase();
+        } else {
+            result += char.toLowerCase();
+        }
+    }
+    element.innerText = result;
+}
+setInterval(hahaafadfsd, 150);
+</script>
