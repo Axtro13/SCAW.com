@@ -1,0 +1,35 @@
+<body style="background:url(bg/HK_G11_with_bayonet.jpg)">
+
+<a href="index.html">
+<button>back </button>
+</a>
+
+<h1><font color="black">ABOUT ME</font></h1>
+
+<pre id="me" style="color:white;font-size:20px;background-color:black;white-space: pre-wrap; overflow-wrap: break-word;">
+TEST
+TEST
+TESST
+
+<script>
+const element = document.getElementById("me");
+const text = element.innerText;
+function hahaafadfsd() {
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+        let char = text[i];
+        if (char === " ") {
+            result += " ";
+            continue;
+        }
+        if (Math.random() > 0.5) {
+            result += char.toUpperCase();
+        } else {
+            result += char.toLowerCase();
+        }
+    }
+    element.innerText = result;
+}
+setInterval(hahaafadfsd, 150);
+</script>
+
